@@ -7,5 +7,6 @@ import br.com.maicon.todolist.entity.Todo;
 public interface TodoRepository extends JpaRepository<Todo, Long>{
 
     
+    
 
 }
