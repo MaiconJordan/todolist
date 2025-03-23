@@ -1,2 +1,67 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+
+# Build e dependências
+target/
+build/
+out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Dependências do Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Dependências do Gradle
+.gradle/
+gradle-app.setting
+gradle.log
+**/build/
+**/out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+logs/
+*.log
+debug.log
+error.log
+
+# Arquivos temporários
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~*
+
+# Credenciais e configurações sensíveis
+.env
+*.env
+*.key
+*.pem
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# Banco de dados H2 (se usado)
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Arquivos gerados pelo IDE
+*.war
+*.jar
+*.ear
+
+# Test Coverage Reports
+jacoco/
+coverage/
